@@ -191,6 +191,11 @@ nav .links {
   align-items: center;
   width: 40%;
 }
+@media (max-width: 500px) {
+  nav .links {
+    width: 100%;
+  }
+}
 nav .links a {
   color: #212529;
   text-decoration: none;

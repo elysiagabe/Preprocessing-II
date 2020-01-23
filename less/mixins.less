@@ -1,1 +1,22 @@
 // Mixins in here
+
+.displayFlex(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.btn-main(@width, @padding, @bg-color: @button-bg, @color: @white) {
+    border-radius: 8px;
+    background-color: @bg-color;
+    color: @color;
+    width: @width;
+    height: 45px;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: @padding;
+}
+
+.animation-scale() {
+    transform: scale(1.04);
+}

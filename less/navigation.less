@@ -1,1 +1,39 @@
 // Navigation Styles here
+nav {
+    .displayFlex(space-between, center);
+    padding: 4% 10%;
+    border-bottom: @border;
+
+    @media @tablet {
+        padding: 4%;
+    }
+
+    @media @phone {
+        flex-direction: column;
+    }
+
+    .links {
+        .displayFlex(space-between, center);
+        width: 40%;
+        
+        @media @tablet {
+            width: 60%;
+        }
+
+        @media @phone {
+            width: 100%;
+        }
+
+        a {
+            color: @font-color;
+            text-decoration: none;
+            font-size: 1.6rem;
+
+            &:hover {
+                color: @button-bg;
+            }
+        }
+    }
+
+    
+}

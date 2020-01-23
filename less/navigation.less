@@ -4,6 +4,10 @@ nav {
     padding: 4% 10%;
     border-bottom: @border;
 
+    @media @tablet {
+        padding: 4%;
+    }
+
     @media @phone {
         flex-direction: column;
     }
@@ -11,6 +15,10 @@ nav {
     .links {
         .displayFlex(space-between, center);
         width: 40%;
+        
+        @media @tablet {
+            width: 60%;
+        }
 
         @media @phone {
             width: 100%;

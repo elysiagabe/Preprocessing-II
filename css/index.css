@@ -180,6 +180,11 @@ nav {
   padding: 4% 10%;
   border-bottom: 2px dashed #C0C0C0;
 }
+@media (max-width: 800px) {
+  nav {
+    padding: 4%;
+  }
+}
 @media (max-width: 500px) {
   nav {
     flex-direction: column;
@@ -190,6 +195,11 @@ nav .links {
   justify-content: space-between;
   align-items: center;
   width: 40%;
+}
+@media (max-width: 800px) {
+  nav .links {
+    width: 60%;
+  }
 }
 @media (max-width: 500px) {
   nav .links {

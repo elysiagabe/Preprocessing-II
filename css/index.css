@@ -184,7 +184,15 @@ nav .links {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 30%;
+  width: 40%;
+}
+nav .links a {
+  color: #212529;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+nav .links a:hover {
+  color: #17A2B8;
 }
 .home .content-section {
   margin: 30px 0;

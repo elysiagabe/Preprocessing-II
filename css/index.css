@@ -340,7 +340,7 @@ nav .links a:hover {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .home .content-pick {
     flex-direction: column;
     align-items: center;
@@ -350,6 +350,11 @@ nav .links a:hover {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 800px) {
+  .home .content-pick .destination {
+    width: 95%;
+  }
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
@@ -365,6 +370,18 @@ nav .links a:hover {
   font-size: 1.8rem;
   text-align: center;
   padding: 6%;
+}
+@media (max-width: 800px) {
+  .home .content-pick .destination .btn {
+    border-radius: 8px;
+    background-color: #17A2B8;
+    color: #FFFFFF;
+    width: 50%;
+    height: 45px;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 2.5%;
+  }
 }
 @media (max-width: 500px) {
   .home .content-pick .destination .btn {

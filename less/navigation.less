@@ -4,6 +4,10 @@ nav {
     padding: 4% 10%;
     border-bottom: @border;
 
+    @media @phone {
+        flex-direction: column;
+    }
+
     .links {
         .displayFlex(space-between, center);
         width: 40%;

@@ -270,6 +270,7 @@ nav .links a:hover {
   .home .inverse-content {
     flex-direction: column-reverse;
     align-items: center;
+    margin: 0 2.5%;
   }
 }
 .home .inverse-content .text-content {
@@ -308,9 +309,21 @@ nav .links a:hover {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-pick {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2.5%;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 85%;
+  }
 }
 .home .content-pick .destination .btn {
   border-radius: 8px;
@@ -321,4 +334,16 @@ nav .links a:hover {
   font-size: 1.8rem;
   text-align: center;
   padding: 6%;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination .btn {
+    border-radius: 8px;
+    background-color: #17A2B8;
+    color: #FFFFFF;
+    width: 100%;
+    height: 45px;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 3.5%;
+  }
 }

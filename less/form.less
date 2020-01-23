@@ -1,0 +1,51 @@
+.reservation {
+    background-color: @button-bg;
+
+    h2 {
+        color: @white;
+        background-color: @button-bg;
+        text-align: center;
+        margin: 4%;
+    } //End h2
+
+    form {
+        margin: 4% 6%;
+
+        label {
+            color: @white;
+            font-family: @main-font;
+            font-size: 1.4rem;
+            line-height: 2;
+        } //End label
+
+
+
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            font-family: @main-font;
+            font-size: 1.8rem;
+            padding: 1.5% 2%;
+            border-radius: 4px;
+            margin: 1% 0;
+        } //End input, textarea, select 
+
+        div {
+            .displayFlex(center, center);
+            margin-top: 1%;
+
+            .btn {
+                .btn-main(200px, 2%, @white, @button-bg);
+                margin: 2% 0;
+            } //End button
+        } //End button div
+        
+    }//End form
+
+    
+} //End reservation
+
+
+

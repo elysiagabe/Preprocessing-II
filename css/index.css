@@ -395,3 +395,48 @@ nav .links a:hover {
     padding: 3.5%;
   }
 }
+.reservation {
+  background-color: #17A2B8;
+}
+.reservation h2 {
+  color: #FFFFFF;
+  background-color: #17A2B8;
+  text-align: center;
+  margin: 4%;
+}
+.reservation form {
+  margin: 4% 6%;
+}
+.reservation form label {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  line-height: 2;
+}
+.reservation form input,
+.reservation form textarea,
+.reservation form select {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  padding: 1.5% 2%;
+  border-radius: 4px;
+  margin: 1% 0;
+}
+.reservation form div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+.reservation form div .btn {
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  color: #17A2B8;
+  width: 200px;
+  height: 45px;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 2%;
+  margin: 2% 0;
+}

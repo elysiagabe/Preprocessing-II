@@ -11,6 +11,11 @@
 
     img {
       padding-bottom: 15px;
+      transition: transform .5s;
+
+      &:hover {
+        .animation-scale();
+      }
     }
   }
 
@@ -36,6 +41,11 @@
     .img-content {
       width: 48%;
       padding-left: 1%;
+      transition: transform .5s;
+
+      &:hover {
+        .animation-scale();
+      }
 
       @media @phone {
         width: 95%;
@@ -71,6 +81,11 @@
     .img-content {
       padding-right: 1%;
       padding-left: 0;
+      transition: transform .5s;
+
+      &:hover {
+        .animation-scale();
+      }
 
       @media @phone {
         padding: 0;
@@ -88,6 +103,11 @@
 
     img {
       border-radius: 10px;
+      transition: transform .5s;
+
+      &:hover {
+        .animation-scale();
+      }
     }
   }
 
@@ -118,7 +138,6 @@
           .btn-main(100%, 3.5%);
         }
       }
-
       
     }
   }

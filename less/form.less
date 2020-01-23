@@ -5,11 +5,11 @@
         color: @white;
         background-color: @button-bg;
         text-align: center;
-        margin: 4%;
+        padding-top: 6%;
     } //End h2
 
     form {
-        margin: 4% 6%;
+        margin: 2% 6%;
 
         label {
             color: @white;
@@ -17,9 +17,6 @@
             font-size: 1.4rem;
             line-height: 2;
         } //End label
-
-
-
 
         input,
         textarea,
@@ -34,11 +31,17 @@
 
         div {
             .displayFlex(center, center);
-            margin-top: 1%;
+            margin: 2% 0;
+            padding-bottom: 3%;
 
             .btn {
-                .btn-main(200px, 2%, @white, @button-bg);
+                .btn-main(200px, 1.5%, @white, @button-bg);
                 margin: 2% 0;
+
+                &:hover {
+                    background-color: @shark;
+                    color: @white;
+                }
             } //End button
         } //End button div
         

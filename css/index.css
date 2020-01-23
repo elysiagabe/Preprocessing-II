@@ -85,7 +85,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 1px solid lavenderblush;
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -402,10 +402,10 @@ nav .links a:hover {
   color: #FFFFFF;
   background-color: #17A2B8;
   text-align: center;
-  margin: 4%;
+  padding-top: 6%;
 }
 .reservation form {
-  margin: 4% 6%;
+  margin: 2% 6%;
 }
 .reservation form label {
   color: #FFFFFF;
@@ -427,7 +427,8 @@ nav .links a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1%;
+  margin: 2% 0;
+  padding-bottom: 3%;
 }
 .reservation form div .btn {
   border-radius: 8px;
@@ -437,6 +438,10 @@ nav .links a:hover {
   height: 45px;
   font-size: 1.8rem;
   text-align: center;
-  padding: 2%;
+  padding: 1.5%;
   margin: 2% 0;
+}
+.reservation form div .btn:hover {
+  background-color: #212529;
+  color: #FFFFFF;
 }
